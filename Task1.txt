@@ -1,0 +1,166 @@
+JalalH@DESKTOP-TEOFA7H MINGW64 ~ (master)
+$ git log
+commit 0d24848fc281eaee632ececb3165ec2407a5744a (HEAD -> master)
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Sat Mar 26 01:35:12 2022 +0400
+
+    -----------------------HELLO---------------------------
+
+commit da72a30b533200b9c38c6c7c2046b7b35b4c0485
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Sat Mar 26 01:17:29 2022 +0400
+
+    Task File Extended
+
+commit fb1505a09cc2e09c347c658ea379dfd25b6e01c1 (tag: v1.01, experimental)
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Sat Mar 26 00:58:01 2022 +0400
+
+    -Git switch master-:
+
+commit ea7d1f0a19b16639cddba1c5d74efc6f6db54540
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Sat Mar 26 00:50:13 2022 +0400
+
+    Home Task trying to build
+
+commit 365a80cff2037497519a717d7437d87f443243c3
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Fri Mar 25 23:31:44 2022 +0400
+
+    First Commit to Task1.txt
+
+commit cf6ebbb7410eda24164ef2321ff026fc8032027c
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Fri Mar 25 23:25:57 2022 +0400
+
+    3 files for change
+
+commit af1d5265b6d7c5ff01068f3c804983dbc6e9aba4
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Fri Mar 25 21:51:29 2022 +0400
+
+    1st commit
+
+JalalH@DESKTOP-TEOFA7H MINGW64 ~ (master)
+$ git log -p
+commit 0d24848fc281eaee632ececb3165ec2407a5744a (HEAD -> master)
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Sat Mar 26 01:35:12 2022 +0400
+
+    -----------------------HELLO---------------------------
+
+diff --git a/README.md b/README.md
+index ed5ff8e..4319d20 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,13 @@
++####Table of Contents
++
++Instructor:    Andrii Krymets
++Subject...:    Software Engineering 2
++
++
++
++1. [Task1.txt](#my-first-title Starting to GIT)
++2. [Task1.txt](#my-first-title Git is iceberg)
++Example:
++
++`This is a sample.`# Beginner
+ # SE2
+-# SE
+
+commit da72a30b533200b9c38c6c7c2046b7b35b4c0485
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Sat Mar 26 01:17:29 2022 +0400
+
+    Task File Extended
+
+diff --git a/Task.txt b/Task.txt
+index 5b124ef..a69742e 100644
+--- a/Task.txt
++++ b/Task.txt
+@@ -3,4 +3,5 @@
+ 1      Line must have 50 symbol
+ 2      Add to Github web service
+ 3      git branch Experimental
+-:
++4      -----------------------
++5      Add:A/B/C/D/E/F/G/H/I/J
+diff --git a/task b/task
+new file mode 100644
+index 0000000..6a99e7c
+--- /dev/null
++++ b/task
+@@ -0,0 +1,5 @@
++#      Going to view task
++
++1      line must not be longer than 50 symbol.
++2      Commit a task
++3      Process is increadabl;:e
+
+commit fb1505a09cc2e09c347c658ea379dfd25b6e01c1 (tag: v1.01, experimental)
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Sat Mar 26 00:58:01 2022 +0400
+
+    -Git switch master-:
+
+diff --git a/Task.txt b/Task.txt
+index e69de29..5b124ef 100644
+--- a/Task.txt
++++ b/Task.txt
+@@ -0,0 +1,6 @@
++#      homework task
++
++1      Line must have 50 symbol
++2      Add to Github web service
++3      git branch Experimental
++:
+
+commit ea7d1f0a19b16639cddba1c5d74efc6f6db54540
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Sat Mar 26 00:50:13 2022 +0400
+
+    Home Task trying to build
+
+diff --git a/Task.txt b/Task.txt
+new file mode 100644
+index 0000000..e69de29
+
+commit 365a80cff2037497519a717d7437d87f443243c3
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Fri Mar 25 23:31:44 2022 +0400
+
+    First Commit to Task1.txt
+
+diff --git a/README.md b/README.md
+index f0244e0..ed5ff8e 100644
+--- a/README.md
++++ b/README.md
+@@ -1 +1,2 @@
+ # SE2
++# SE
+
+commit cf6ebbb7410eda24164ef2321ff026fc8032027c
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Fri Mar 25 23:25:57 2022 +0400
+
+    3 files for change
+
+diff --git a/Task1.txt b/Task1.txt
+new file mode 100644
+index 0000000..e69de29
+
+commit af1d5265b6d7c5ff01068f3c804983dbc6e9aba4
+Author: JalalHasanov <jalalhasanov@live.com>
+Date:   Fri Mar 25 21:51:29 2022 +0400
+
+    1st commit
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..f0244e0
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1 @@
++# SE2
